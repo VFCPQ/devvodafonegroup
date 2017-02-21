@@ -26,14 +26,11 @@ prodName = "";condition = "";
 validationValue = "";
 
 //cFTRequestParameter_quote
-//CFTREQ1$$Estación-05001$$Paseo,de la Estación,,18,,,05001,Ávila,Ávila,Spain,40.66,-4.69$$Y$$Y$$N$$N$$S$$None$$Horario de oficina 8x5$$Estandar$$Alquiler$$AMBOS$$$$$$$$$$##CFTREQ2$$Estación-05001$$Paseo,de la Estación,,18,,,05001,Ávila,Ávila,Spain,40.66,-4.69$$Y$$Y$$N$$N$$L$$None$$Horario de oficina 8x5$$Estandar$$Alquiler$$AMBOS$$$$$$$$$$
 
 if(opco_quote == "GB") {
   country = "United Kingdom";
 }
 
-//[CFTREQ1, Callao, Carrera,Perdiu,12,74,21,14,46184,Callao de San Antonio,Madrid,Spain,40.66,40.66, Y, Y, N, N, S, None, Horario de oficina 8x5, Estandar, Alquiler, AMBOS, , , , , ]
-//[Carrera, Perdiu, 12, 74, 21, 14, 46184, Callao de San Antonio, Madrid, Spain, 40.66, 40.66]
 
 //Get Batch Count.
 condition = _system_company_name + "_batch";
@@ -163,16 +160,6 @@ if(requestParameter <> ""){
 					permission = commerce.getPermissionForCFTFeasibilityInputParameters(Market, Opco, cftMain, Type);
 				}				
 				
-				// if(permission == "Yes"){
-					// //Temporary fix for defect 894/907
-					// if(eachOne[7] == "Main"){
-						// //Added by Chandan to @defect 593/894/907 fixes
-						// feasibilityModeOfAccess = util.getModeOfAccessAgainstBandwidth_ES(eachOne[9]+ "##" + eachOne[7], eachOne[3] , eachOne[5]);
-						// feasibility = feasibilityModeOfAccess + "!!" + "Symmetric" + "!!" + eachOne[0];
-					// }
-				// }else{
-					// feasibility = "" + "!!" + "Asymmetric" + "!!" + eachOne[0];
-				// }
 				feasibility = "PaP_2M" + "!!" + "Symmetric" + "!!" + eachOne[0];
 			}
 			//Primary end
@@ -180,9 +167,6 @@ if(requestParameter <> ""){
 			//FOR Legacy MPLS & Internet
 			if(eachOne[7] == "legacyProductVPNAvalon"){
 				prodName = eachOne[7];
-			//if(selectProductES_quote == "legacyProductVPNAvalon"){
-				//type = "";
-///				//cftAccessString = util.getCFTMainBackupForLegacyProduct(selectProductES_quote, eachOne[3], eachOne[4]);
 				
 				if(eachOne[5] == "Main"){
 					//line from 189 to 204 Commented for PROJ-1518930_BREQ-107 BREQ
