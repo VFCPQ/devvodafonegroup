@@ -7,6 +7,7 @@
 			field2 - cost
 			field3 - max discount
 			field8 - fee type
+			testing commment
 		
 		1) Functionality list 
 		2) Get latest part information
