@@ -1,5 +1,5 @@
 //table3 17082016 code
-// PROJ-1518930_BREQ-107 BREQ changes From line 614 to 643, 1039 to 1059,1272 to 1275,
+// PROJ-1518930_BREQ-107 BREQ changes From line 614 to 643, 1039 to 1059,1272 to 1275........
   
 finalString = "";
 selectProductFijoMovil="";	// 02-01-2017 For BREQ091(One Net Feasibility)
