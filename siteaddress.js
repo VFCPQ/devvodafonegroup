@@ -80,10 +80,6 @@ require([], function() {
 			$('#export_account_summary_excel').closest("table").hide();
 			
 			}
-		//Hide for timebeing dont know what is the reason
-		// $('#field_wrapper_1_quoteType_quote select').on("change", function(){
-			// $('#pagerefreshforapproval').click();
-		// });
 		
 		$('#field_wrapper_1_usageSME_quote select').on("change", function(){
 			$('#pagerefreshforapproval').click();
