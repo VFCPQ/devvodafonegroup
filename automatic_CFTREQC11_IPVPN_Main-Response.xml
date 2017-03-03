@@ -1,0 +1,753 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+	<SOAP-ENV:Header xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+		<ns0:Source xmlns:ns="http://group.vodafone.com/contract/vho/header/v1" xmlns:ns0="http://group.vodafone.com/contract/vho/header/v1" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+			<ns0:CountryCode>ES</ns0:CountryCode>
+			<ns0:Operator/>
+			<ns0:Division/>
+			<ns0:System/>
+			<ns0:Timestamp>2016-11-18T12:01:13.264+01:00</ns0:Timestamp>
+		</ns0:Source>
+		<ns0:Correlation xmlns:ns="http://group.vodafone.com/contract/vho/header/v1" xmlns:ns0="http://group.vodafone.com/contract/vho/header/v1" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+			<ns0:ConversationID>CFTREQC11</ns0:ConversationID>
+		</ns0:Correlation>
+		<ns0:Cache xmlns:ns="http://group.vodafone.com/contract/vho/header/v1" xmlns:ns0="http://group.vodafone.com/contract/vho/header/v1" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+			<ns0:UseCache>yes</ns0:UseCache>
+		</ns0:Cache>
+		<ns0:ServiceDocumentation xmlns:ns="http://group.vodafone.com/contract/vho/header/v1" xmlns:ns0="http://group.vodafone.com/contract/vho/header/v1" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+			<ns0:ContractVersion>1.0</ns0:ContractVersion>
+			<ns0:Implementation>
+				<ns0:Version>1.0</ns0:Version>
+				<ns0:Build>0</ns0:Build>
+			</ns0:Implementation>
+		</ns0:ServiceDocumentation>
+		<ns:ResultStatus xmlns:ns="http://group.vodafone.com/contract/vho/header/v1" xmlns:ns0="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+			<ns1:Timestamp xmlns:ns1="http://docs.oasis-open.org/wsrf/bf-2">2016-11-18T12:01:16.513+01:00</ns1:Timestamp>
+			<ns1:ErrorCode xmlns:ns1="http://docs.oasis-open.org/wsrf/bf-2" dialect="0000"/>
+			<ns1:Description xmlns:ns1="http://docs.oasis-open.org/wsrf/bf-2">Exito</ns1:Description>
+			<ns1:Name xmlns:ns1="http://group.vodafone.com/contract/vfo/fault/v1">Success</ns1:Name>
+			<ns1:Severity xmlns:ns1="http://group.vodafone.com/contract/vfo/fault/v1">Information</ns1:Severity>
+			<ns1:Category xmlns:ns1="http://group.vodafone.com/contract/vfo/fault/v1">Business</ns1:Category>
+			<ns1:ReasonCode xmlns:ns1="http://group.vodafone.com/contract/vfo/fault/v1">0000</ns1:ReasonCode>
+			<ns1:Message xmlns:ns1="http://group.vodafone.com/contract/vfo/fault/v1">Exito</ns1:Message>
+		</ns:ResultStatus>
+	</SOAP-ENV:Header>
+	<SOAP-ENV:Body>
+		<ns0:CheckServiceFeasibilityVBMResponse xmlns:ns0="http://group.vodafone.com/schema/vbm/service/service-feasibility/v1">
+			<ns0:ServiceFeasibilityVBO>
+				<ns1:IDs xmlns:ns1="http://group.vodafone.com/schema/common/v1">
+					<ns1:ID xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://group.vodafone.com/schema/common/v1" xmlns:ns0="http://group.vodafone.com/schema/vbm/service/service-feasibility/v1">Aut-000299230</ns1:ID>
+				</ns1:IDs>
+				<ns1:Name xmlns:ns1="http://group.vodafone.com/schema/common/v1"/>
+				<ns1:Type xmlns:ns1="http://group.vodafone.com/schema/common/v1">Automatic</ns1:Type>
+				<ns1:ValidityPeriod xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://group.vodafone.com/schema/common/v1" xmlns:ns0="http://group.vodafone.com/schema/vbm/service/service-feasibility/v1">
+					<ns1:ToDate>
+						<ns2:DateString xmlns:ns2="urn:un:unece:uncefact:documentation:standard:CoreComponentType:2">17/05/2017</ns2:DateString>
+					</ns1:ToDate>
+				</ns1:ValidityPeriod>
+				<ns1:Details xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://group.vodafone.com/schema/vbo/service/service-feasibility/v1" xmlns:ns0="http://group.vodafone.com/schema/vbm/service/service-feasibility/v1">
+					<ns1:TransactionID>43652039</ns1:TransactionID>
+				</ns1:Details>
+				<ns1:Parts xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://group.vodafone.com/schema/vbo/service/service-feasibility/v1" xmlns:ns0="http://group.vodafone.com/schema/vbm/service/service-feasibility/v1">
+					<ns1:SalesOpportunity>
+						<ns2:IDs xmlns:v1="http://group.vodafone.com/contract/vho/header/v1" xmlns:ns2="http://group.vodafone.com/schema/common/v1" xmlns:urn="urn:un:unece:uncefact:documentation:standard:CoreComponentType:2" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v11="http://group.vodafone.com/schema/vbm/service/service-feasibility/v1" xmlns:add="http://www.w3.org/2005/08/addressing">
+							<ns2:ID schemeName="Sales Opportunity ID">0067E000002ZFWHQA4</ns2:ID>
+						</ns2:IDs>
+					</ns1:SalesOpportunity>
+					<ns1:SalesQuote>
+						<ns2:IDs xmlns:ns2="http://group.vodafone.com/schema/common/v1">
+							<ns2:ID>00040576</ns2:ID>
+						</ns2:IDs>
+					</ns1:SalesQuote>
+					<ns1:Location>
+						<ns2:Street xmlns:ns2="http://group.vodafone.com/schema/common/v1">de Sant Quintí</ns2:Street>
+						<ns2:Town xmlns:ns2="http://group.vodafone.com/schema/common/v1">Barcelona</ns2:Town>
+						<ns2:BuildingNumber xmlns:ns2="http://group.vodafone.com/schema/common/v1"/>
+						<ns2:Country xmlns:ns2="http://group.vodafone.com/schema/common/v1">ES</ns2:Country>
+						<ns2:County xmlns:ns2="http://group.vodafone.com/schema/common/v1">8</ns2:County>
+						<ns2:PostCode xmlns:ns2="http://group.vodafone.com/schema/common/v1">08041</ns2:PostCode>
+						<ns2:SubStreet xmlns:ns2="http://group.vodafone.com/schema/common/v1">54</ns2:SubStreet>
+						<ns2:StreetType xmlns:ns2="http://group.vodafone.com/schema/common/v1">26</ns2:StreetType>
+						<ns2:LevelNr xmlns:ns2="http://group.vodafone.com/schema/common/v1"/>
+						<ns2:Portal xmlns:ns2="http://group.vodafone.com/schema/common/v1"/>
+						<ns2:LocationCoordinates xmlns:ns2="http://group.vodafone.com/schema/common/v1">
+							<ns2:LatitudeMeasure>41.4141949</ns2:LatitudeMeasure>
+							<ns2:LongitudeMeasure>2.177306</ns2:LongitudeMeasure>
+						</ns2:LocationCoordinates>
+					</ns1:Location>
+					<ns1:LineItems>
+						<ns1:LineItem>
+							<ns1:Cost>
+								<ns2:Amount xmlns:ns2="http://group.vodafone.com/schema/common/v1">0</ns2:Amount>
+								<ns2:OneOffAmounts xmlns:ns2="http://group.vodafone.com/schema/common/v1">
+									<ns2:OneOffAmount>
+										<ns2:Activation>
+											<ns2:Amount>0</ns2:Amount>
+										</ns2:Activation>
+										<ns2:Installation>
+											<ns2:Amount>0</ns2:Amount>
+										</ns2:Installation>
+									</ns2:OneOffAmount>
+								</ns2:OneOffAmounts>
+								<ns2:RecurringAmounts xmlns:ns2="http://group.vodafone.com/schema/common/v1">
+									<ns2:RecurringAmount>
+										<ns2:Amount>0</ns2:Amount>
+										<ns2:Frequency>
+											<ns2:IntervalUnitCode>Monthly</ns2:IntervalUnitCode>
+										</ns2:Frequency>
+									</ns2:RecurringAmount>
+								</ns2:RecurringAmounts>
+							</ns1:Cost>
+							<ns1:Specification>
+								<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="2G">
+									<ns2:Value>Alta</ns2:Value>
+								</ns2:CharacteristicsValue>
+								<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="Plazo">
+									<ns2:Value>18</ns2:Value>
+								</ns2:CharacteristicsValue>
+							</ns1:Specification>
+							<ns1:ServiceSpecifications>
+								<ns1:ServiceSpecification>
+									<ns2:Type xmlns:ns2="http://group.vodafone.com/schema/common/v1">VF 2G</ns2:Type>
+									<ns2:Status xmlns:ns2="http://group.vodafone.com/schema/common/v1">G</ns2:Status>
+									<ns1:Specification>
+										<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="Access LeadTime">
+											<ns2:Value>-1</ns2:Value>
+										</ns2:CharacteristicsValue>
+									</ns1:Specification>
+								</ns1:ServiceSpecification>
+							</ns1:ServiceSpecifications>
+						</ns1:LineItem>
+						<ns1:LineItem>
+							<ns1:Cost>
+								<ns2:Amount xmlns:ns2="http://group.vodafone.com/schema/common/v1">0</ns2:Amount>
+								<ns2:OneOffAmounts xmlns:ns2="http://group.vodafone.com/schema/common/v1">
+									<ns2:OneOffAmount>
+										<ns2:Activation>
+											<ns2:Amount>0</ns2:Amount>
+										</ns2:Activation>
+										<ns2:Installation>
+											<ns2:Amount>0</ns2:Amount>
+										</ns2:Installation>
+									</ns2:OneOffAmount>
+								</ns2:OneOffAmounts>
+								<ns2:RecurringAmounts xmlns:ns2="http://group.vodafone.com/schema/common/v1">
+									<ns2:RecurringAmount>
+										<ns2:Amount>0</ns2:Amount>
+										<ns2:Frequency>
+											<ns2:IntervalUnitCode>Monthly</ns2:IntervalUnitCode>
+										</ns2:Frequency>
+									</ns2:RecurringAmount>
+								</ns2:RecurringAmounts>
+							</ns1:Cost>
+							<ns1:Specification>
+								<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="3G">
+									<ns2:Value>Alta</ns2:Value>
+								</ns2:CharacteristicsValue>
+								<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="Plazo">
+									<ns2:Value>18</ns2:Value>
+								</ns2:CharacteristicsValue>
+							</ns1:Specification>
+							<ns1:ServiceSpecifications>
+								<ns1:ServiceSpecification>
+									<ns2:Type xmlns:ns2="http://group.vodafone.com/schema/common/v1">VF 3G</ns2:Type>
+									<ns2:Status xmlns:ns2="http://group.vodafone.com/schema/common/v1">G</ns2:Status>
+									<ns1:Specification>
+										<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="Access LeadTime">
+											<ns2:Value>-1</ns2:Value>
+										</ns2:CharacteristicsValue>
+									</ns1:Specification>
+								</ns1:ServiceSpecification>
+							</ns1:ServiceSpecifications>
+						</ns1:LineItem>
+						<ns1:LineItem>
+							<ns1:Cost>
+								<ns2:Amount xmlns:ns2="http://group.vodafone.com/schema/common/v1">0</ns2:Amount>
+								<ns2:OneOffAmounts xmlns:ns2="http://group.vodafone.com/schema/common/v1">
+									<ns2:OneOffAmount>
+										<ns2:Activation>
+											<ns2:Amount>0</ns2:Amount>
+										</ns2:Activation>
+										<ns2:Installation>
+											<ns2:Amount>0</ns2:Amount>
+										</ns2:Installation>
+									</ns2:OneOffAmount>
+								</ns2:OneOffAmounts>
+								<ns2:RecurringAmounts xmlns:ns2="http://group.vodafone.com/schema/common/v1">
+									<ns2:RecurringAmount>
+										<ns2:Amount>0</ns2:Amount>
+										<ns2:Frequency>
+											<ns2:IntervalUnitCode>Monthly</ns2:IntervalUnitCode>
+										</ns2:Frequency>
+									</ns2:RecurringAmount>
+								</ns2:RecurringAmounts>
+							</ns1:Cost>
+							<ns1:Specification>
+								<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="4G">
+									<ns2:Value>Alta</ns2:Value>
+								</ns2:CharacteristicsValue>
+								<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="Plazo">
+									<ns2:Value>18</ns2:Value>
+								</ns2:CharacteristicsValue>
+							</ns1:Specification>
+							<ns1:ServiceSpecifications>
+								<ns1:ServiceSpecification>
+									<ns2:Type xmlns:ns2="http://group.vodafone.com/schema/common/v1">VF 4G</ns2:Type>
+									<ns2:Status xmlns:ns2="http://group.vodafone.com/schema/common/v1">G</ns2:Status>
+									<ns1:Specification>
+										<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="Access LeadTime">
+											<ns2:Value>-1</ns2:Value>
+										</ns2:CharacteristicsValue>
+									</ns1:Specification>
+								</ns1:ServiceSpecification>
+							</ns1:ServiceSpecifications>
+						</ns1:LineItem>
+						<ns1:LineItem>
+							<ns1:Cost>
+								<ns2:Amount xmlns:ns2="http://group.vodafone.com/schema/common/v1">0</ns2:Amount>
+								<ns2:OneOffAmounts xmlns:ns2="http://group.vodafone.com/schema/common/v1">
+									<ns2:OneOffAmount>
+										<ns2:Activation>
+											<ns2:Amount>0</ns2:Amount>
+										</ns2:Activation>
+										<ns2:Installation>
+											<ns2:Amount>0</ns2:Amount>
+										</ns2:Installation>
+									</ns2:OneOffAmount>
+								</ns2:OneOffAmounts>
+								<ns2:RecurringAmounts xmlns:ns2="http://group.vodafone.com/schema/common/v1">
+									<ns2:RecurringAmount>
+										<ns2:Amount>0</ns2:Amount>
+										<ns2:Frequency>
+											<ns2:IntervalUnitCode>Monthly</ns2:IntervalUnitCode>
+										</ns2:Frequency>
+									</ns2:RecurringAmount>
+								</ns2:RecurringAmounts>
+							</ns1:Cost>
+							<ns1:Specification/>
+							<ns1:ServiceSpecifications>
+								<ns1:ServiceSpecification>
+									<ns2:Type xmlns:ns2="http://group.vodafone.com/schema/common/v1">VF AI</ns2:Type>
+									<ns2:Status xmlns:ns2="http://group.vodafone.com/schema/common/v1">R</ns2:Status>
+									<ns1:Specification>
+										<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="Access LeadTime">
+											<ns2:Value>-1</ns2:Value>
+										</ns2:CharacteristicsValue>
+									</ns1:Specification>
+								</ns1:ServiceSpecification>
+							</ns1:ServiceSpecifications>
+						</ns1:LineItem>
+						<ns1:LineItem>
+							<ns1:Cost>
+								<ns2:Amount xmlns:ns2="http://group.vodafone.com/schema/common/v1">0</ns2:Amount>
+								<ns2:OneOffAmounts xmlns:ns2="http://group.vodafone.com/schema/common/v1">
+									<ns2:OneOffAmount>
+										<ns2:Activation>
+											<ns2:Amount>0</ns2:Amount>
+										</ns2:Activation>
+										<ns2:Installation>
+											<ns2:Amount>0</ns2:Amount>
+										</ns2:Installation>
+									</ns2:OneOffAmount>
+								</ns2:OneOffAmounts>
+								<ns2:RecurringAmounts xmlns:ns2="http://group.vodafone.com/schema/common/v1">
+									<ns2:RecurringAmount>
+										<ns2:Amount>0</ns2:Amount>
+										<ns2:Frequency>
+											<ns2:IntervalUnitCode>Monthly</ns2:IntervalUnitCode>
+										</ns2:Frequency>
+									</ns2:RecurringAmount>
+								</ns2:RecurringAmounts>
+							</ns1:Cost>
+							<ns1:Specification/>
+							<ns1:ServiceSpecifications>
+								<ns1:ServiceSpecification>
+									<ns2:Type xmlns:ns2="http://group.vodafone.com/schema/common/v1">NEBA ADSL</ns2:Type>
+									<ns2:Status xmlns:ns2="http://group.vodafone.com/schema/common/v1">B</ns2:Status>
+									<ns1:Specification>
+										<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="Access LeadTime">
+											<ns2:Value>-1</ns2:Value>
+										</ns2:CharacteristicsValue>
+										<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="Código MIGA">
+											<ns2:Value>2861001</ns2:Value>
+										</ns2:CharacteristicsValue>
+										<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="Velocidad">
+											<ns2:Value>20MB</ns2:Value>
+										</ns2:CharacteristicsValue>
+										<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="Zona">
+											<ns2:Value>Zona 2</ns2:Value>
+										</ns2:CharacteristicsValue>
+										<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="Perfil de Validación">
+											<ns2:Value>A16</ns2:Value>
+										</ns2:CharacteristicsValue>
+									</ns1:Specification>
+								</ns1:ServiceSpecification>
+							</ns1:ServiceSpecifications>
+						</ns1:LineItem>
+						<ns1:LineItem>
+							<ns1:Cost>
+								<ns2:Amount xmlns:ns2="http://group.vodafone.com/schema/common/v1">0</ns2:Amount>
+								<ns2:OneOffAmounts xmlns:ns2="http://group.vodafone.com/schema/common/v1">
+									<ns2:OneOffAmount>
+										<ns2:Activation>
+											<ns2:Amount>0</ns2:Amount>
+										</ns2:Activation>
+										<ns2:Installation>
+											<ns2:Amount>0</ns2:Amount>
+										</ns2:Installation>
+									</ns2:OneOffAmount>
+								</ns2:OneOffAmounts>
+								<ns2:RecurringAmounts xmlns:ns2="http://group.vodafone.com/schema/common/v1">
+									<ns2:RecurringAmount>
+										<ns2:Amount>0</ns2:Amount>
+										<ns2:Frequency>
+											<ns2:IntervalUnitCode>Monthly</ns2:IntervalUnitCode>
+										</ns2:Frequency>
+									</ns2:RecurringAmount>
+								</ns2:RecurringAmounts>
+							</ns1:Cost>
+							<ns1:Specification/>
+							<ns1:ServiceSpecifications>
+								<ns1:ServiceSpecification>
+									<ns2:Type xmlns:ns2="http://group.vodafone.com/schema/common/v1">NEBA FTTH</ns2:Type>
+									<ns2:Status xmlns:ns2="http://group.vodafone.com/schema/common/v1">B</ns2:Status>
+									<ns1:Specification>
+										<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="Access LeadTime">
+											<ns2:Value>-1</ns2:Value>
+										</ns2:CharacteristicsValue>
+										<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="Código MIGA">
+											<ns2:Value>2861001</ns2:Value>
+										</ns2:CharacteristicsValue>
+										<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="Velocidad">
+											<ns2:Value>20MB</ns2:Value>
+										</ns2:CharacteristicsValue>
+										<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="Zona">
+											<ns2:Value>Zona 2</ns2:Value>
+										</ns2:CharacteristicsValue>
+										<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="Perfil de Validación">
+											<ns2:Value>A16</ns2:Value>
+										</ns2:CharacteristicsValue>
+									</ns1:Specification>
+								</ns1:ServiceSpecification>
+							</ns1:ServiceSpecifications>
+						</ns1:LineItem>
+						<ns1:LineItem>
+							<ns1:Cost>
+								<ns2:Amount xmlns:ns2="http://group.vodafone.com/schema/common/v1">0</ns2:Amount>
+								<ns2:OneOffAmounts xmlns:ns2="http://group.vodafone.com/schema/common/v1">
+									<ns2:OneOffAmount>
+										<ns2:Activation>
+											<ns2:Amount>0</ns2:Amount>
+										</ns2:Activation>
+										<ns2:Installation>
+											<ns2:Amount>0</ns2:Amount>
+										</ns2:Installation>
+									</ns2:OneOffAmount>
+								</ns2:OneOffAmounts>
+								<ns2:RecurringAmounts xmlns:ns2="http://group.vodafone.com/schema/common/v1">
+									<ns2:RecurringAmount>
+										<ns2:Amount>0</ns2:Amount>
+										<ns2:Frequency>
+											<ns2:IntervalUnitCode>Monthly</ns2:IntervalUnitCode>
+										</ns2:Frequency>
+									</ns2:RecurringAmount>
+								</ns2:RecurringAmounts>
+							</ns1:Cost>
+							<ns1:Specification/>
+							<ns1:ServiceSpecifications>
+								<ns1:ServiceSpecification>
+									<ns2:Type xmlns:ns2="http://group.vodafone.com/schema/common/v1">NEBA VDSL</ns2:Type>
+									<ns2:Status xmlns:ns2="http://group.vodafone.com/schema/common/v1">B</ns2:Status>
+									<ns1:Specification>
+										<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="Access LeadTime">
+											<ns2:Value>-1</ns2:Value>
+										</ns2:CharacteristicsValue>
+										<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="Código MIGA">
+											<ns2:Value>2861001</ns2:Value>
+										</ns2:CharacteristicsValue>
+										<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="Velocidad">
+											<ns2:Value>20MB</ns2:Value>
+										</ns2:CharacteristicsValue>
+										<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="Zona">
+											<ns2:Value>Zona 2</ns2:Value>
+										</ns2:CharacteristicsValue>
+										<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="Perfil de Validación">
+											<ns2:Value>A16</ns2:Value>
+										</ns2:CharacteristicsValue>
+									</ns1:Specification>
+								</ns1:ServiceSpecification>
+							</ns1:ServiceSpecifications>
+						</ns1:LineItem>
+						<ns1:LineItem>
+							<ns1:Cost>
+								<ns2:Amount xmlns:ns2="http://group.vodafone.com/schema/common/v1">0</ns2:Amount>
+								<ns2:OneOffAmounts xmlns:ns2="http://group.vodafone.com/schema/common/v1">
+									<ns2:OneOffAmount>
+										<ns2:Activation>
+											<ns2:Amount>0</ns2:Amount>
+										</ns2:Activation>
+										<ns2:Installation>
+											<ns2:Amount>0</ns2:Amount>
+										</ns2:Installation>
+									</ns2:OneOffAmount>
+								</ns2:OneOffAmounts>
+								<ns2:RecurringAmounts xmlns:ns2="http://group.vodafone.com/schema/common/v1">
+									<ns2:RecurringAmount>
+										<ns2:Amount>0</ns2:Amount>
+										<ns2:Frequency>
+											<ns2:IntervalUnitCode>Monthly</ns2:IntervalUnitCode>
+										</ns2:Frequency>
+									</ns2:RecurringAmount>
+								</ns2:RecurringAmounts>
+							</ns1:Cost>
+							<ns1:Specification/>
+							<ns1:ServiceSpecifications>
+								<ns1:ServiceSpecification>
+									<ns2:Type xmlns:ns2="http://group.vodafone.com/schema/common/v1">VF FTTH</ns2:Type>
+									<ns2:Status xmlns:ns2="http://group.vodafone.com/schema/common/v1">R</ns2:Status>
+									<ns1:Specification>
+										<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="Access LeadTime">
+											<ns2:Value>-1</ns2:Value>
+										</ns2:CharacteristicsValue>
+									</ns1:Specification>
+								</ns1:ServiceSpecification>
+							</ns1:ServiceSpecifications>
+						</ns1:LineItem>
+						<ns1:LineItem>
+							<ns1:Cost>
+								<ns2:Amount xmlns:ns2="http://group.vodafone.com/schema/common/v1">0</ns2:Amount>
+								<ns2:OneOffAmounts xmlns:ns2="http://group.vodafone.com/schema/common/v1">
+									<ns2:OneOffAmount>
+										<ns2:Activation>
+											<ns2:Amount>0</ns2:Amount>
+										</ns2:Activation>
+										<ns2:Installation>
+											<ns2:Amount>0</ns2:Amount>
+										</ns2:Installation>
+									</ns2:OneOffAmount>
+								</ns2:OneOffAmounts>
+								<ns2:RecurringAmounts xmlns:ns2="http://group.vodafone.com/schema/common/v1">
+									<ns2:RecurringAmount>
+										<ns2:Amount>0</ns2:Amount>
+										<ns2:Frequency>
+											<ns2:IntervalUnitCode>Monthly</ns2:IntervalUnitCode>
+										</ns2:Frequency>
+									</ns2:RecurringAmount>
+								</ns2:RecurringAmounts>
+							</ns1:Cost>
+							<ns1:Specification>
+								<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="Id Finca">
+									<ns2:Value>1110315180</ns2:Value>
+								</ns2:CharacteristicsValue>
+								<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="Id Sitio">
+									<ns2:Value>25</ns2:Value>
+								</ns2:CharacteristicsValue>
+								<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="Nodo terminal">
+									<ns2:Value>BA1-HO1A10</ns2:Value>
+								</ns2:CharacteristicsValue>
+								<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="Velocidad Empresa">
+									<ns2:Value>300</ns2:Value>
+								</ns2:CharacteristicsValue>
+								<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="CMTS">
+									<ns2:Value>BA1-HO</ns2:Value>
+								</ns2:CharacteristicsValue>
+								<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="Seccion Hogares">
+									<ns2:Value>111000000261122,,2,3,4,</ns2:Value>
+								</ns2:CharacteristicsValue>
+								<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="Seccion Hogares">
+									<ns2:Value>111000000261121,,2,4,4,</ns2:Value>
+								</ns2:CharacteristicsValue>
+								<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="Seccion Hogares">
+									<ns2:Value>111000000261120,,2,+1,4,</ns2:Value>
+								</ns2:CharacteristicsValue>
+								<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="Seccion Hogares">
+									<ns2:Value>111000000261102,,2,BJ,2,</ns2:Value>
+								</ns2:CharacteristicsValue>
+								<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="Seccion Hogares">
+									<ns2:Value>111000000261101,,2,EN,2,</ns2:Value>
+								</ns2:CharacteristicsValue>
+								<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="Seccion Hogares">
+									<ns2:Value>111000000261100,,2,1,2,</ns2:Value>
+								</ns2:CharacteristicsValue>
+								<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="Seccion Hogares">
+									<ns2:Value>111000000261099,,2,2,2,</ns2:Value>
+								</ns2:CharacteristicsValue>
+								<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="Seccion Hogares">
+									<ns2:Value>111000000261098,,2,3,2,</ns2:Value>
+								</ns2:CharacteristicsValue>
+								<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="Seccion Hogares">
+									<ns2:Value>111000000261097,,2,4,2,</ns2:Value>
+								</ns2:CharacteristicsValue>
+								<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="Seccion Hogares">
+									<ns2:Value>111000000261096,,2,+1,2,</ns2:Value>
+								</ns2:CharacteristicsValue>
+								<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="Seccion Hogares">
+									<ns2:Value>111000000261095,,1,1,4,</ns2:Value>
+								</ns2:CharacteristicsValue>
+								<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="Seccion Hogares">
+									<ns2:Value>111000000261094,,1,1,3,</ns2:Value>
+								</ns2:CharacteristicsValue>
+								<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="Seccion Hogares">
+									<ns2:Value>111000000261093,,1,2,3,</ns2:Value>
+								</ns2:CharacteristicsValue>
+								<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="Seccion Hogares">
+									<ns2:Value>111000000261092,,1,3,3,</ns2:Value>
+								</ns2:CharacteristicsValue>
+								<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="Seccion Hogares">
+									<ns2:Value>111000000261091,,1,4,3,</ns2:Value>
+								</ns2:CharacteristicsValue>
+								<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="Seccion Hogares">
+									<ns2:Value>111000000261090,,1,+1,3,</ns2:Value>
+								</ns2:CharacteristicsValue>
+								<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="Seccion Hogares">
+									<ns2:Value>111000000261089,,1,+1,2,</ns2:Value>
+								</ns2:CharacteristicsValue>
+								<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="Seccion Hogares">
+									<ns2:Value>111000000261088,,1,EN,2,</ns2:Value>
+								</ns2:CharacteristicsValue>
+								<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="Seccion Hogares">
+									<ns2:Value>111000000261087,,1,1,2,</ns2:Value>
+								</ns2:CharacteristicsValue>
+								<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="Seccion Hogares">
+									<ns2:Value>111000000261086,,1,2,2,</ns2:Value>
+								</ns2:CharacteristicsValue>
+								<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="Seccion Hogares">
+									<ns2:Value>111000000261085,,1,3,2,</ns2:Value>
+								</ns2:CharacteristicsValue>
+								<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="Seccion Hogares">
+									<ns2:Value>111000000261084,,1,4,2,</ns2:Value>
+								</ns2:CharacteristicsValue>
+								<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="Seccion Hogares">
+									<ns2:Value>111000000261083,,1,+1,4,</ns2:Value>
+								</ns2:CharacteristicsValue>
+								<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="Seccion Hogares">
+									<ns2:Value>111000000261082,,1,BJ,3,</ns2:Value>
+								</ns2:CharacteristicsValue>
+								<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="Seccion Hogares">
+									<ns2:Value>111000000261081,,1,BJ,1,</ns2:Value>
+								</ns2:CharacteristicsValue>
+								<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="Seccion Hogares">
+									<ns2:Value>111000000261080,,1,EN,1,</ns2:Value>
+								</ns2:CharacteristicsValue>
+								<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="Seccion Hogares">
+									<ns2:Value>111000000261079,,1,1,1,</ns2:Value>
+								</ns2:CharacteristicsValue>
+								<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="Seccion Hogares">
+									<ns2:Value>111000000261078,,1,2,1,</ns2:Value>
+								</ns2:CharacteristicsValue>
+								<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="Seccion Hogares">
+									<ns2:Value>111000000261077,,1,3,1,</ns2:Value>
+								</ns2:CharacteristicsValue>
+								<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="Seccion Hogares">
+									<ns2:Value>111000000261076,,1,4,1,</ns2:Value>
+								</ns2:CharacteristicsValue>
+								<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="Seccion Hogares">
+									<ns2:Value>111000000261075,,1,EN,4,</ns2:Value>
+								</ns2:CharacteristicsValue>
+								<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="Seccion Hogares">
+									<ns2:Value>111000000261074,,1,EN,3,</ns2:Value>
+								</ns2:CharacteristicsValue>
+								<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="Seccion Hogares">
+									<ns2:Value>111000000261073,,1,1,5,</ns2:Value>
+								</ns2:CharacteristicsValue>
+								<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="Seccion Hogares">
+									<ns2:Value>111000000261072,,1,2,5,</ns2:Value>
+								</ns2:CharacteristicsValue>
+								<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="Seccion Hogares">
+									<ns2:Value>111000000261071,,1,2,4,</ns2:Value>
+								</ns2:CharacteristicsValue>
+								<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="Seccion Hogares">
+									<ns2:Value>111000000261070,,1,3,5,</ns2:Value>
+								</ns2:CharacteristicsValue>
+								<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="Seccion Hogares">
+									<ns2:Value>111000000261069,,1,3,4,</ns2:Value>
+								</ns2:CharacteristicsValue>
+								<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="Seccion Hogares">
+									<ns2:Value>111000000261068,,1,4,5,</ns2:Value>
+								</ns2:CharacteristicsValue>
+								<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="Seccion Hogares">
+									<ns2:Value>111000000261067,,1,4,4,</ns2:Value>
+								</ns2:CharacteristicsValue>
+								<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="Seccion Hogares">
+									<ns2:Value>111000000261066,,1,+1,5,</ns2:Value>
+								</ns2:CharacteristicsValue>
+								<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="Seccion Hogares">
+									<ns2:Value>111000000261065,,2,EN,4,</ns2:Value>
+								</ns2:CharacteristicsValue>
+								<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="Seccion Hogares">
+									<ns2:Value>111000000261064,,2,EN,3,</ns2:Value>
+								</ns2:CharacteristicsValue>
+								<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="Seccion Hogares">
+									<ns2:Value>111000000261063,,2,1,3,</ns2:Value>
+								</ns2:CharacteristicsValue>
+								<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="Seccion Hogares">
+									<ns2:Value>111000000261062,,2,2,3,</ns2:Value>
+								</ns2:CharacteristicsValue>
+								<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="Seccion Hogares">
+									<ns2:Value>111000000261061,,2,3,3,</ns2:Value>
+								</ns2:CharacteristicsValue>
+								<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="Seccion Hogares">
+									<ns2:Value>111000000261060,,2,4,3,</ns2:Value>
+								</ns2:CharacteristicsValue>
+								<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="Seccion Hogares">
+									<ns2:Value>111000000261059,,2,+1,3,</ns2:Value>
+								</ns2:CharacteristicsValue>
+								<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="Seccion Hogares">
+									<ns2:Value>111000000261058,,2,+1,5,</ns2:Value>
+								</ns2:CharacteristicsValue>
+								<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="Seccion Hogares">
+									<ns2:Value>111000000261057,,2,BJ,1,</ns2:Value>
+								</ns2:CharacteristicsValue>
+								<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="Seccion Hogares">
+									<ns2:Value>111000000261056,,2,EN,1,</ns2:Value>
+								</ns2:CharacteristicsValue>
+								<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="Seccion Hogares">
+									<ns2:Value>111000000261055,,2,1,5,</ns2:Value>
+								</ns2:CharacteristicsValue>
+								<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="Seccion Hogares">
+									<ns2:Value>111000000261054,,2,1,1,</ns2:Value>
+								</ns2:CharacteristicsValue>
+								<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="Seccion Hogares">
+									<ns2:Value>111000000261053,,2,2,5,</ns2:Value>
+								</ns2:CharacteristicsValue>
+								<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="Seccion Hogares">
+									<ns2:Value>111000000261052,,2,2,1,</ns2:Value>
+								</ns2:CharacteristicsValue>
+								<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="Seccion Hogares">
+									<ns2:Value>111000000261051,,2,3,5,</ns2:Value>
+								</ns2:CharacteristicsValue>
+								<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="Seccion Hogares">
+									<ns2:Value>111000000261050,,2,3,1,</ns2:Value>
+								</ns2:CharacteristicsValue>
+								<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="Seccion Hogares">
+									<ns2:Value>111000000261049,,2,4,1,</ns2:Value>
+								</ns2:CharacteristicsValue>
+								<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="Seccion Hogares">
+									<ns2:Value>111000000261048,,2,+1,1,</ns2:Value>
+								</ns2:CharacteristicsValue>
+								<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="Seccion Hogares">
+									<ns2:Value>111000000261047,,2,EN,5,</ns2:Value>
+								</ns2:CharacteristicsValue>
+								<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="Seccion Hogares">
+									<ns2:Value>111000000261046,,2,1,4,</ns2:Value>
+								</ns2:CharacteristicsValue>
+								<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="Seccion Hogares">
+									<ns2:Value>111000000261045,,2,2,4,</ns2:Value>
+								</ns2:CharacteristicsValue>
+								<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="Plazo">
+									<ns2:Value>30</ns2:Value>
+								</ns2:CharacteristicsValue>
+							</ns1:Specification>
+							<ns1:ServiceSpecifications>
+								<ns1:ServiceSpecification>
+									<ns2:Type xmlns:ns2="http://group.vodafone.com/schema/common/v1">ONO HFC</ns2:Type>
+									<ns2:Status xmlns:ns2="http://group.vodafone.com/schema/common/v1">B</ns2:Status>
+									<ns1:Specification>
+										<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="Access LeadTime">
+											<ns2:Value>-1</ns2:Value>
+										</ns2:CharacteristicsValue>
+									</ns1:Specification>
+								</ns1:ServiceSpecification>
+							</ns1:ServiceSpecifications>
+						</ns1:LineItem>
+						<ns1:LineItem>
+							<ns1:Cost>
+								<ns2:Amount xmlns:ns2="http://group.vodafone.com/schema/common/v1">0</ns2:Amount>
+								<ns2:OneOffAmounts xmlns:ns2="http://group.vodafone.com/schema/common/v1">
+									<ns2:OneOffAmount>
+										<ns2:Activation>
+											<ns2:Amount>0</ns2:Amount>
+										</ns2:Activation>
+										<ns2:Installation>
+											<ns2:Amount>0</ns2:Amount>
+										</ns2:Installation>
+									</ns2:OneOffAmount>
+								</ns2:OneOffAmounts>
+								<ns2:RecurringAmounts xmlns:ns2="http://group.vodafone.com/schema/common/v1">
+									<ns2:RecurringAmount>
+										<ns2:Amount>0</ns2:Amount>
+										<ns2:Frequency>
+											<ns2:IntervalUnitCode>Monthly</ns2:IntervalUnitCode>
+										</ns2:Frequency>
+									</ns2:RecurringAmount>
+								</ns2:RecurringAmounts>
+							</ns1:Cost>
+							<ns1:Specification>
+								<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="Código Miga">
+									<ns2:Value>0810006</ns2:Value>
+								</ns2:CharacteristicsValue>
+								<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="Cobertura">
+									<ns2:Value>AD</ns2:Value>
+								</ns2:CharacteristicsValue>
+								<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="Modalidad">
+									<ns2:Value>PV</ns2:Value>
+								</ns2:CharacteristicsValue>
+								<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="Capacidad Serviciable ADSL">
+									<ns2:Value>15,00MB</ns2:Value>
+								</ns2:CharacteristicsValue>
+								<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="Capacidad Serviciable VDSL">
+									<ns2:Value>30,00MB</ns2:Value>
+								</ns2:CharacteristicsValue>
+								<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="Capacidad VDSL">
+									<ns2:Value>Si</ns2:Value>
+								</ns2:CharacteristicsValue>
+								<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="perfil">
+									<ns2:Value>VDSL</ns2:Value>
+								</ns2:CharacteristicsValue>
+								<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="Plazo">
+									<ns2:Value>26</ns2:Value>
+								</ns2:CharacteristicsValue>
+							</ns1:Specification>
+							<ns1:ServiceSpecifications>
+								<ns1:ServiceSpecification>
+									<ns2:Type xmlns:ns2="http://group.vodafone.com/schema/common/v1">VF xDSL</ns2:Type>
+									<ns2:Status xmlns:ns2="http://group.vodafone.com/schema/common/v1">B</ns2:Status>
+									<ns1:Specification>
+										<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="Access LeadTime">
+											<ns2:Value>-1</ns2:Value>
+										</ns2:CharacteristicsValue>
+									</ns1:Specification>
+								</ns1:ServiceSpecification>
+							</ns1:ServiceSpecifications>
+						</ns1:LineItem>
+						<ns1:LineItem>
+							<ns1:Cost>
+								<ns2:Amount xmlns:ns2="http://group.vodafone.com/schema/common/v1">0</ns2:Amount>
+								<ns2:OneOffAmounts xmlns:ns2="http://group.vodafone.com/schema/common/v1">
+									<ns2:OneOffAmount>
+										<ns2:Activation>
+											<ns2:Amount>0</ns2:Amount>
+										</ns2:Activation>
+										<ns2:Installation>
+											<ns2:Amount>0</ns2:Amount>
+										</ns2:Installation>
+									</ns2:OneOffAmount>
+								</ns2:OneOffAmounts>
+								<ns2:RecurringAmounts xmlns:ns2="http://group.vodafone.com/schema/common/v1">
+									<ns2:RecurringAmount>
+										<ns2:Amount>0</ns2:Amount>
+										<ns2:Frequency>
+											<ns2:IntervalUnitCode>Monthly</ns2:IntervalUnitCode>
+										</ns2:Frequency>
+									</ns2:RecurringAmount>
+								</ns2:RecurringAmounts>
+							</ns1:Cost>
+							<ns1:Specification/>
+							<ns1:ServiceSpecifications>
+								<ns1:ServiceSpecification>
+									<ns2:Type xmlns:ns2="http://group.vodafone.com/schema/common/v1">LEASED LINES</ns2:Type>
+									<ns2:Status xmlns:ns2="http://group.vodafone.com/schema/common/v1">R</ns2:Status>
+									<ns1:Specification>
+										<ns2:CharacteristicsValue xmlns:ns2="http://group.vodafone.com/schema/common/v1" characteristicName="Access LeadTime">
+											<ns2:Value>-1</ns2:Value>
+										</ns2:CharacteristicsValue>
+									</ns1:Specification>
+								</ns1:ServiceSpecification>
+							</ns1:ServiceSpecifications>
+						</ns1:LineItem>
+					</ns1:LineItems>
+				</ns1:Parts>
+			</ns0:ServiceFeasibilityVBO>
+		</ns0:CheckServiceFeasibilityVBMResponse>
+	</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
